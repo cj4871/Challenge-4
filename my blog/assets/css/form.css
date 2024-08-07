@@ -1,0 +1,56 @@
+header{
+    width: 100%;
+    height: 150px;
+    border-bottom: 3px solid black;
+}
+.light-mode{
+    float: right;
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: orange;
+}
+.light-mode:hover{
+    color: yellow;
+}
+.dark-mode{
+    display: none;
+    float: right;
+    font-size: 40px;
+
+}
+main{
+    display: flex;
+    border-top: 3px solid black;
+    margin-top: 2px;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-side{
+    border-right: 3px solid black;
+}
+.emblem{
+
+}
+figure{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 25%; */
+}
+.logo {
+    background: rgb(181, 236, 255);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    
+}
+.right-side{
+    display: flex;
+    margin-left: 2px;
+    border-left: 3px solid black;
+    justify-content: center;
+}
+.pre-post{
+margin-left: 100%;
+}
