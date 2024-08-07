@@ -12,4 +12,6 @@ for (let i=0; i < blogPost.length; i++){
     post.appendChild(postTitle);
     post.appendChild(postComment);
     post.appendChild(postUser);
-} 
+  }
+
+ 
